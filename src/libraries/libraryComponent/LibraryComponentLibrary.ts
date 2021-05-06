@@ -1,7 +1,7 @@
-//import * as strings from 'LibraryComponentLibraryStrings';
+import * as strings from 'LibraryComponentLibraryStrings';
 export class LibraryComponentLibrary {
   public name(): string {
-    return 'LibraryComponentLibrary';
-     //return 'LibraryComponentLibrary' +  ' => ' + strings.BasicGroupName;
+    //return 'LibraryComponentLibrary';
+    return 'LibraryComponentLibrary' +  ' => ' + strings.BasicGroupName;
   }
 }
